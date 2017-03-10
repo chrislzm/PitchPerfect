@@ -35,7 +35,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnB-ME-6ht">
-                                <rect key="frame" x="110" y="448" width="155" height="155"/>
+                                <rect key="frame" x="152" y="448" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="nvU-yL-Bau"/>
+                                    <constraint firstAttribute="height" constant="70" id="reO-Ud-bmC"/>
+                                </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0g2-CF-JLb"/>
@@ -44,11 +48,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KnB-ME-6ht" firstAttribute="centerX" secondItem="Jbc-kH-o63" secondAttribute="centerX" id="7n1-hI-fQr"/>
+                            <constraint firstItem="KnB-ME-6ht" firstAttribute="centerX" secondItem="Z3x-rz-qyT" secondAttribute="centerX" id="DLP-6g-3vl"/>
                             <constraint firstItem="Jbc-kH-o63" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pf0-p6-H7Y"/>
+                            <constraint firstItem="KnB-ME-6ht" firstAttribute="top" secondItem="Z3x-rz-qyT" secondAttribute="bottom" constant="8" symbolic="YES" id="bFL-YT-UrX"/>
                             <constraint firstItem="Z3x-rz-qyT" firstAttribute="centerX" secondItem="Jbc-kH-o63" secondAttribute="centerX" id="lQE-sI-C1z"/>
                             <constraint firstItem="Z3x-rz-qyT" firstAttribute="top" secondItem="Jbc-kH-o63" secondAttribute="bottom" constant="8" id="mWR-Fo-HY1"/>
-                            <constraint firstItem="KnB-ME-6ht" firstAttribute="top" secondItem="Jbc-kH-o63" secondAttribute="bottom" constant="37" id="nBh-rr-q3U"/>
                             <constraint firstItem="Jbc-kH-o63" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tdx-MC-5na"/>
                         </constraints>
                     </view>
@@ -64,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="1055.2" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="feV-TF-Gb1">
             <objects>
-                <viewController id="Azn-pP-Dze" sceneMemberID="viewController">
+                <viewController id="Azn-pP-Dze" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S6D-ip-Ydl"/>
                         <viewControllerLayoutGuide type="bottom" id="bNk-vf-taS"/>
