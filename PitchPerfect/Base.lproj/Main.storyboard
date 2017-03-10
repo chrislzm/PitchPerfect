@@ -79,7 +79,7 @@
                     <view key="view" contentMode="scaleToFill" id="0Dw-bD-9P0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.47566037713274534" green="1" blue="0.61696686894519859" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.012713431380689144" green="0.79941338300704956" blue="0.72772961854934692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="edm-PR-3wr" userLabel="First Responder" sceneMemberID="firstResponder"/>
