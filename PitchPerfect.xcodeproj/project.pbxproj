@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A576D1C01ECFD18600828E98 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A576D1BF1ECFD18600828E98 /* README.md */; };
 		A58CC81B1E7119C60019695B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC81A1E7119C60019695B /* AppDelegate.swift */; };
 		A58CC81D1E7119C60019695B /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC81C1E7119C60019695B /* RecordSoundsViewController.swift */; };
 		A58CC8201E7119C60019695B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58CC81E1E7119C60019695B /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A576D1BF1ECFD18600828E98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A58CC8171E7119C60019695B /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58CC81A1E7119C60019695B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A58CC81C1E7119C60019695B /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		A58CC8191E7119C60019695B /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				A576D1BF1ECFD18600828E98 /* README.md */,
 				A58CC81A1E7119C60019695B /* AppDelegate.swift */,
 				A58CC81C1E7119C60019695B /* RecordSoundsViewController.swift */,
 				A58CC81E1E7119C60019695B /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				A58CC81D1E7119C60019695B /* RecordSoundsViewController.swift in Sources */,
 				A5EFF92A1E724F9500541FF5 /* PlaySoundsViewController.swift in Sources */,
+				A576D1C01ECFD18600828E98 /* README.md in Sources */,
 				A58CC81B1E7119C60019695B /* AppDelegate.swift in Sources */,
 				A5EFF92C1E727E6C00541FF5 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
